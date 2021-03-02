@@ -1,0 +1,10 @@
+Tipe data Primitif,Tipe Data bukan Primitif
+byte,Byte
+short,Short
+int,Integer
+long,Long
+float,Float
+double,Double
+
+char,Character
+boolean,Boolean
