@@ -6,6 +6,7 @@ public class RecursiveMethod {
 
         System.out.println(factorialRecrusive(6));
         System.out.println(1*2*3*4*5*6);
+        loop(10);
 
     }
 
@@ -23,6 +24,15 @@ public class RecursiveMethod {
             return 1;
         }else {
             return nilai * factorialRecrusive(nilai-1);
+        }
+    }
+
+    static void loop(int value){
+        if (value==0){
+            System.out.println("selesai");
+        }else {
+            System.out.println("Loop "+ value);
+            loop(value-1);
         }
     }
 }
